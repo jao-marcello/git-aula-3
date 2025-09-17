@@ -7,7 +7,7 @@ public class App {
         
         Scanner scanner = new Scanner(System.in);
 
-        int n1, n2, soma, sub;
+        int n1, n2, soma, sub, mult;
 
         System.out.println("Digite o primeiro nmero: ");
         n1 = scanner.nextInt();
@@ -20,7 +20,10 @@ public class App {
 
         sub = n1 - n2;
         System.out.println("A subtrao dos numeros " + n1 + " e " + n2 + "  = " + sub);
-        
+
+        mult = n1 * n2;
+        System.out.println("A multiplica dos numeros " + n1 + " e " + n2 + "  = " + mult);
+
         scanner.close();
 
     }
